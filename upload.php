@@ -1,7 +1,7 @@
 <?php
     //var_dump($_FILES["file"]);
 
-    $directorio = ".uploads/";
+    $directorio = "uploads/";
 
     $archivo = $directorio . basename($_FILES["file"]["name"]);
 
